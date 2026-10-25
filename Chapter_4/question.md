@@ -1,10 +1,21 @@
+# ACN-TH
+
+**User:** Anonymous  
+**Created:** 9/19/2026 11:22:08  
+**Updated:** 10/25/2026 17:32:20  
+**Exported:** 10/25/2026 17:47:20  
+**Link:** [https://chatgpt.com/c/6aae2307-7b8c-83e9-87c1-09040396fbf2](https://chatgpt.com/c/6aae2307-7b8c-83e9-87c1-09040396fbf2)  
+
+## Response:
+10/25/2026, 4:49:09 PM · gpt-6
+
 # Packet Scheduling — Question Bank (150 Questions)
 
 This question bank covers the Packet Scheduling chapter for your Advanced Computer Networks course. It includes conceptual questions, short and long answers, proofs/derivations, numerical problems, scheduling tables, and scenario-based questions.
 
-Coverage: QoS, scheduling requirements, max-min fairness, performance bounds, admission control, FIFO, GPS, fairness bounds, WRR, DRR, and WFQ.
+**Coverage\:** QoS, scheduling requirements, max-min fairness, performance bounds, admission control, FIFO, GPS, fairness bounds, WRR, DRR, and WFQ.
 
-As requested, these are questions only — no solutions or answers.
+As requested, these are **questions only — no solutions or answers**\.
 
 ## Section A — Fundamentals and QoS (1–15)
 
@@ -185,8 +196,15 @@ As requested, these are questions only — no solutions or answers.
 145. Three WRR queues have weights 3:2:1 and initial lengths of 8, 5, and 4 packets. Construct a complete scheduling table showing every round until all queues become empty.
 146. A DRR scheduler uses a quantum of 500 bytes for each queue. The packet sizes are Q1: 150, 450, 350; Q2: 700, 200, 300; and Q3: 250, 250, 500. Prepare a round-by-round deficit-counter table and determine the packet transmission order.
 147. A weighted DRR system has weights 1:3:5 and uses a base quantum of 200 bytes. Calculate suitable quanta and explain how the weights influence service when all queues remain backlogged.
-148. Three WFQ flows have weights 1, 2, and 3. Their packets, in arrival order within each flow, have sizes \\(400,200\\), \\(600,300\\), and \\(900,300\\) bytes, respectively. Assuming all packets arrive at virtual time zero, calculate their finish tags and determine the packet scheduling order.
+148. Three WFQ flows have weights 1, 2, and 3. Their packets, in arrival order within each flow, have sizes $400,200$, $600,300$, and $900,300$ bytes, respectively. Assuming all packets arrive at virtual time zero, calculate their finish tags and determine the packet scheduling order.
 149. A practical scheduler provides a flow with 18,000 bits of service, while GPS would provide 20,000 bits during the same interval. Calculate the absolute service difference. If the scheduler's maximum absolute error bound is 2,500 bits, determine whether the observed service satisfies the bound.
 150. Design a packet scheduling system for a network with guaranteed-service traffic and best-effort traffic. Specify the scheduling discipline, queue organization, weight or quantum selection, admission-control policy, and QoS metrics you would monitor. Justify your design decisions.
 
-Suggested exam-preparation order: First solve Questions 21–30 on max-min fairness, then Questions 50–51 on FIFO, Questions 60–69 on GPS, Questions 85–90 on WRR, Questions 101–110 on DRR, and Questions 115–120 on WFQ. These give you focused practice across the main numerical techniques before attempting the advanced problems.
+---
+
+**Suggested exam-preparation order\:** First solve Questions 21–30 on max-min fairness, then Questions 50–51 on FIFO, Questions 60–69 on GPS, Questions 85–90 on WRR, Questions 101–110 on DRR, and Questions 115–120 on WFQ. These give you focused practice across the main numerical techniques before attempting the advanced problems.
+
+
+
+---
+Powered by [ChatGPT Exporter](https://www.chatgptexporter.com)
